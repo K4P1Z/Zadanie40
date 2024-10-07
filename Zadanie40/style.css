@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #00000063;
+    background-size: calc(0);
+    background-repeat: no-repeat;
+}
+header{
+    height: 6rem;
+    display: block;
+}
+header div{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+}
+header nav{
+    height: 60%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+header nav button{
+    background-image: linear-gradient(135deg, #2c1f36, #000000);
+    color: white;
+    padding: 10px 20px;
+    margin: 7px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-position 0.5s ease;
+    background-size: 200% 100%;
+    background-position: 0% 0%;
+    padding: 20px;
+}
+header nav button:hover{
+    background-position: 100% 0%;
+}
+
+.section1{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+ 
+}
+.content{
+    width: 70%;
+    text-align: left;
+    background-image: linear-gradient(135deg, rgb(255, 255, 255), #e2e2e2);
+    border-radius: 30px;
+    padding: 0px 50px;
+
+}
+.zdjecie{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.zdjecie img{
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+}
