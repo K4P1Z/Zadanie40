@@ -15,11 +15,18 @@ header div{
     text-align: center;
 }
 header nav{
-    height: 60%;
-    width: 100%;
+    height: 10%;
+    width: 5%;
     justify-content: space-between;
-    align-items: center;
+
     text-align: center;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.div{
+    margin-left: 100%;
+    margin-top: 10%;
 }
 header nav button{
     background-image: linear-gradient(135deg, #2c1f36, #000000);
